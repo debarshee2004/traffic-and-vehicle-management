@@ -78,6 +78,6 @@ def extract_frames(video_path, output_folder, frames_per_second=10):
 
 
 # Example usage
-input_video_path = "../../data/raw/video_two.mp4"
-output_picture_folder = "../../data/processed/frames"
+input_video_path = ""
+output_picture_folder = ""
 extract_frames(input_video_path, output_picture_folder)
