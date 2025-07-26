@@ -1,11 +1,14 @@
 # Traffic and Vehicle Management
 
-```py
-!pip install roboflow
-
-from roboflow import Roboflow
-rf = Roboflow(api_key=API_KEY)
-project = rf.workspace("debarshee2004").project("traffic-and-vehicle-management")
-version = project.version(1)
-dataset = version.download("yolov9")
+```mermaid
+flowchart TD
+    A[ESP32-CAM] -->|Captures Images| B[Object Detection Server]
+    B -->|Returns Vehicle Count| C[Traffic Management API]
+    
+    C -->|Store Data| D[(PostgreSQL Database)]
+    C -->|REST API| E[Frontend Logger Website]
+    
+    E --> F[Traffic Logs]
+    E --> G[Analytics]
+    E --> H[Dashboard]
 ```
