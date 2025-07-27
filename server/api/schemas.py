@@ -1,50 +1,25 @@
 from pydantic import BaseModel, Field
 from typing import Optional, Dict, Any, List
 from datetime import datetime
-from enum import Enum
 
 
-# Enums
-class SignalState(str, Enum):
-    RED = "red"
-    GREEN = "green"
-    YELLOW = "yellow"
-
-
-class TrafficDensity(str, Enum):
-    LOW = "low"
-    MEDIUM = "medium"
-    HIGH = "high"
-    CRITICAL = "critical"
-
-
-# Base Schemas
+# Base schemas
 class RoadBase(BaseModel):
-    name: str = Field(..., max_length=100)
-    location: str = Field(..., max_length=200)
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
-    road_type: Optional[str] = Field(None, max_length=50)
-    max_capacity: Optional[int] = None
-    length_km: Optional[float] = None
+    name: str
+    location: str
+    road_type: str
+    speed_limit: Optional[int] = 50
+    lane_count: Optional[int] = 2
+    coordinates: Optional[Dict[str, Any]] = None
 
 
 class RoadCreate(RoadBase):
     pass
 
 
-class RoadUpdate(BaseModel):
-    name: Optional[str] = Field(None, max_length=100)
-    location: Optional[str] = Field(None, max_length=200)
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
-    road_type: Optional[str] = Field(None, max_length=50)
-    max_capacity: Optional[int] = None
-    length_km: Optional[float] = None
-
-
 class Road(RoadBase):
     id: int
+    road_id: str
     created_at: datetime
     updated_at: datetime
 
@@ -52,14 +27,39 @@ class Road(RoadBase):
         from_attributes = True
 
 
-# Traffic Signal Schemas
+# Camera schemas
+class CameraBase(BaseModel):
+    camera_id: str
+    road_id: int
+    location_description: Optional[str] = None
+    coordinates: Optional[Dict[str, Any]] = None
+    status: Optional[str] = "active"
+
+
+class CameraCreate(CameraBase):
+    pass
+
+
+class Camera(CameraBase):
+    id: int
+    installation_date: datetime
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+# Traffic Signal schemas
 class TrafficSignalBase(BaseModel):
-    signal_id: str = Field(..., max_length=50)
-    location: str = Field(..., max_length=200)
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
-    signal_type: str = Field(..., max_length=50)
-    is_active: bool = True
+    road_id: int
+    location_description: Optional[str] = None
+    coordinates: Optional[Dict[str, Any]] = None
+    signal_type: Optional[str] = "standard"
+    current_state: Optional[str] = "red"
+    green_duration: Optional[int] = 30
+    red_duration: Optional[int] = 30
+    yellow_duration: Optional[int] = 5
+    is_active: Optional[bool] = True
 
 
 class TrafficSignalCreate(TrafficSignalBase):
@@ -67,16 +67,16 @@ class TrafficSignalCreate(TrafficSignalBase):
 
 
 class TrafficSignalUpdate(BaseModel):
-    signal_id: Optional[str] = Field(None, max_length=50)
-    location: Optional[str] = Field(None, max_length=200)
-    latitude: Optional[float] = None
-    longitude: Optional[float] = None
-    signal_type: Optional[str] = Field(None, max_length=50)
+    current_state: Optional[str] = None
+    green_duration: Optional[int] = None
+    red_duration: Optional[int] = None
+    yellow_duration: Optional[int] = None
     is_active: Optional[bool] = None
 
 
 class TrafficSignal(TrafficSignalBase):
     id: int
+    signal_id: str
     created_at: datetime
     updated_at: datetime
 
@@ -84,94 +84,115 @@ class TrafficSignal(TrafficSignalBase):
         from_attributes = True
 
 
-# Intersection Schemas
+# Intersection schemas
 class IntersectionBase(BaseModel):
-    name: str = Field(..., max_length=100)
+    name: str
     road_id: int
-    traffic_signal_id: int
-    intersection_type: Optional[str] = Field(None, max_length=50)
-    priority_level: int = Field(1, ge=1, le=5)
+    coordinates: Optional[Dict[str, Any]] = None
+    intersection_type: Optional[str] = "cross"
+    priority_level: Optional[int] = 1
 
 
 class IntersectionCreate(IntersectionBase):
     pass
 
 
-class IntersectionUpdate(BaseModel):
-    name: Optional[str] = Field(None, max_length=100)
-    road_id: Optional[int] = None
-    traffic_signal_id: Optional[int] = None
-    intersection_type: Optional[str] = Field(None, max_length=50)
-    priority_level: Optional[int] = Field(None, ge=1, le=5)
-
-
 class Intersection(IntersectionBase):
     id: int
+    intersection_id: str
     created_at: datetime
 
     class Config:
         from_attributes = True
 
 
-# Vehicle Detection Schemas
-class VehicleDetectionBase(BaseModel):
-    road_id: int
-    vehicle_count: int = Field(..., ge=0)
-    vehicle_types: Optional[Dict[str, int]] = None
-    confidence_score: Optional[float] = Field(None, ge=0.0, le=1.0)
-    camera_id: Optional[str] = Field(None, max_length=50)
-    image_path: Optional[str] = Field(None, max_length=200)
-    traffic_density: Optional[TrafficDensity] = None
+# Vehicle Detection schemas
+class VehicleCounts(BaseModel):
+    total_vehicles: int = 0
+    cars: int = 0
+    trucks: int = 0
+    buses: int = 0
+    motorcycles: int = 0
+    bicycles: int = 0
+    pedestrians: int = 0
 
 
-class VehicleDetectionCreate(VehicleDetectionBase):
-    pass
+class DetectionMetadata(BaseModel):
+    confidence_score: float = 0.0
+    processing_time_ms: int = 0
+    model_version: str
+    image_dimensions: Dict[str, Any] = {}
 
 
-class VehicleDetection(VehicleDetectionBase):
+class ObjectDetectionResponse(BaseModel):
+    detection_id: str
+    camera_id: str
+    timestamp: str
+    vehicle_counts: VehicleCounts
+    detection_metadata: DetectionMetadata
+
+
+class VehicleDetectionCreate(BaseModel):
+    camera_id: str
+    image: bytes = Field(..., description="Image file in bytes")
+
+
+class VehicleDetection(BaseModel):
     id: int
-    detection_timestamp: datetime
+    detection_id: str
+    camera_id: int
+    timestamp: datetime
+    total_vehicles: int
+    cars: int
+    trucks: int
+    buses: int
+    motorcycles: int
+    bicycles: int
+    pedestrians: int
+    confidence_score: float
+    processing_time_ms: int
+    model_version: Optional[str]
+    image_dimensions: Optional[Dict[str, Any]]
+    traffic_density: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
 
 
-# Signal Log Schemas
+# Signal Log schemas
 class SignalLogBase(BaseModel):
-    traffic_signal_id: int
-    signal_state: SignalState
+    signal_id: int
+    state: str
     start_time: datetime
     end_time: Optional[datetime] = None
-    duration_seconds: Optional[int] = Field(None, ge=0)
-    is_manual_override: bool = False
-    algorithm_version: Optional[str] = Field(None, max_length=20)
-    traffic_context: Optional[Dict[str, Any]] = None
+    duration_seconds: Optional[int] = None
+    triggered_by: Optional[str] = "schedule"
 
 
 class SignalLogCreate(SignalLogBase):
     pass
 
 
-class SignalLogUpdate(BaseModel):
-    end_time: Optional[datetime] = None
-    duration_seconds: Optional[int] = Field(None, ge=0)
-
-
 class SignalLog(SignalLogBase):
     id: int
+    log_id: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
 
 
-# Traffic Analytics Schemas
+# Traffic Analytics schemas
 class TrafficAnalyticsBase(BaseModel):
     road_id: int
-    avg_vehicle_count: Optional[float] = None
-    peak_traffic_time: Optional[datetime] = None
-    congestion_level: Optional[TrafficDensity] = None
-    recommended_signal_timing: Optional[Dict[str, int]] = None
-    analysis_period: str = Field(..., max_length=20)
+    date: datetime
+    hour: int
+    avg_vehicles_per_minute: Optional[float] = 0.0
+    peak_vehicle_count: Optional[int] = 0
+    total_vehicles: Optional[int] = 0
+    avg_processing_time: Optional[float] = 0.0
+    congestion_level: Optional[str] = "low"
 
 
 class TrafficAnalyticsCreate(TrafficAnalyticsBase):
@@ -180,42 +201,52 @@ class TrafficAnalyticsCreate(TrafficAnalyticsBase):
 
 class TrafficAnalytics(TrafficAnalyticsBase):
     id: int
-    analysis_timestamp: datetime
+    analytics_id: str
+    created_at: datetime
 
     class Config:
         from_attributes = True
 
 
-# Response Schemas
-class VehicleDetectionResponse(BaseModel):
-    success: bool
-    message: str
-    detection_id: Optional[int] = None
-    vehicle_count: Optional[int] = None
-    traffic_density: Optional[str] = None
+# Signal Timing Algorithm schemas
+class TrafficData(BaseModel):
+    vehicle_count: int
+    waiting_time: float
+    queue_length: int
+    timestamp: datetime
+
+
+class SignalTimingRequest(BaseModel):
+    signal_id: str
+    current_traffic_data: List[TrafficData]
+    time_of_day: int = Field(..., ge=0, le=23)
+    day_of_week: int = Field(..., ge=0, le=6)  # 0=Monday, 6=Sunday
 
 
 class SignalTimingResponse(BaseModel):
     signal_id: str
-    recommended_green_time: int
-    recommended_red_time: int
-    current_traffic_density: str
+    recommended_green_duration: int
+    recommended_red_duration: int
     confidence: float
-    algorithm_version: str
+    reasoning: str
 
 
-class TrafficSummary(BaseModel):
-    road_id: int
-    road_name: str
-    current_vehicle_count: int
-    avg_vehicle_count_last_hour: float
-    traffic_density: str
-    last_updated: datetime
+# Response schemas
+class StandardResponse(BaseModel):
+    success: bool
+    message: str
+    data: Optional[Dict[str, Any]] = None
 
 
-# YOLO Detection Request
-class YOLODetectionRequest(BaseModel):
-    camera_id: str
-    road_id: int
-    image_data: Optional[str] = None  # base64 encoded image
-    image_path: Optional[str] = None  # path to image file
+class PaginatedResponse(BaseModel):
+    success: bool
+    data: List[Any]
+    total: int
+    page: int
+    per_page: int
+    total_pages: int
+
+
+# Image upload schema
+class ImageUpload(BaseModel):
+    camera_id: str = Field(..., description="Camera identifier")

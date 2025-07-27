@@ -5,11 +5,10 @@ import os
 from typing import Generator
 
 # Database configuration
-# DATABASE_URL: str = os.getenv(
-#     "DATABASE_URL", "postgresql://username:password@localhost:5432/traffic_management"
-# )
+DATABASE_URL: str = os.getenv(
+    "DATABASE_URL", "postgresql://username:password@localhost:5432/traffic_management"
+)
 
-DATABASE_URL = "postgresql://neondb_owner:npg_q1XFu4MeKgOL@ep-billowing-hat-a1a3karr-pooler.ap-southeast-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 # Create SQLAlchemy engine
 engine = create_engine(
