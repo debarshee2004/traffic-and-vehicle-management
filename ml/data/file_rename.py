@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 SOURCE_FOLDER = "../../data/processed/frames"  # Default source folder
-DEST_FOLDER = "../../server/demo_test_ip_camera/images"  # Default destination folder
+DEST_FOLDER = "../../data/processed/ip_camera"  # Default destination folder
 
 
 def rename_and_move_files():
