@@ -332,9 +332,9 @@ class VehicleDetectionClient:
                         for k, v in vehicle_counts.items()
                         if v > 0 and k != "total_vehicles"
                     ]
-                    logger.info(f"  Details: {', '.join(counts)}")
+                    logger.info(f"\033[92mDetails: {', '.join(counts)}\033[0m")
             else:
-                logger.error(f"Failed to process: {image_path.name}")
+                logger.error(f"\033[91mFailed to process: {image_path.name}\033[0m")
 
             # Small delay between requests to avoid overwhelming the API
             time.sleep(0.5)
@@ -424,7 +424,8 @@ def main():
     """Main function"""
     # Configuration
     API_URL = "http://localhost:8000"
-    IMAGE_FOLDER = "../../data/processed/frames"  # Folder containing images
+    # Folder containing images
+    IMAGE_FOLDER = "../../data/processed/ip_camera"
 
     # Initialize client
     client = VehicleDetectionClient(API_URL)

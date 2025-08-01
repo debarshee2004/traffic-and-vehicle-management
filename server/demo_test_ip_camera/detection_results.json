@@ -1,0 +1,1442 @@
+[
+  {
+    "detection_id": "b2d75398-e2ef-465f-980e-0f4b96fce2b3",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:34.136928",
+    "vehicle_counts": {
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.503,
+      "processing_time_ms": 230,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0000.jpg"
+  },
+  {
+    "detection_id": "67b942d6-aa0b-4e66-b0f9-055312bb2950",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:36.905720",
+    "vehicle_counts": {
+      "total_vehicles": 5,
+      "cars": 4,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.535,
+      "processing_time_ms": 216,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0001.jpg"
+  },
+  {
+    "detection_id": "524e803d-a365-47a0-bd84-cfb4a9ccd300",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:39.684911",
+    "vehicle_counts": {
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.601,
+      "processing_time_ms": 223,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0002.jpg"
+  },
+  {
+    "detection_id": "da31df35-b429-4d1e-ae2c-3ab803fcbb32",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:42.457297",
+    "vehicle_counts": {
+      "total_vehicles": 5,
+      "cars": 4,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.577,
+      "processing_time_ms": 218,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0003.jpg"
+  },
+  {
+    "detection_id": "be4367bc-fd6d-42e5-b717-391c95d75f5e",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:45.468491",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.479,
+      "processing_time_ms": 425,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0004.jpg"
+  },
+  {
+    "detection_id": "953d96ed-2a0c-4657-af60-09ebe1e2597c",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:48.741688",
+    "vehicle_counts": {
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.563,
+      "processing_time_ms": 281,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0005.jpg"
+  },
+  {
+    "detection_id": "72d0b410-8f94-447f-8a3a-0d5ba2641d84",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:51.622942",
+    "vehicle_counts": {
+      "total_vehicles": 5,
+      "cars": 4,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.588,
+      "processing_time_ms": 314,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0006.jpg"
+  },
+  {
+    "detection_id": "0223eb07-2177-454b-be5a-b44cb52d4561",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:54.539011",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.62,
+      "processing_time_ms": 349,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0007.jpg"
+  },
+  {
+    "detection_id": "027107fd-65ab-41e4-8f78-8c15fbdcddcc",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:00:57.617617",
+    "vehicle_counts": {
+      "total_vehicles": 4,
+      "cars": 4,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.639,
+      "processing_time_ms": 363,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0008.jpg"
+  },
+  {
+    "detection_id": "7fe249f3-d1d1-4fa0-96d8-161c2186f137",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:00.497187",
+    "vehicle_counts": {
+      "total_vehicles": 5,
+      "cars": 4,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.597,
+      "processing_time_ms": 268,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0009.jpg"
+  },
+  {
+    "detection_id": "ac1b1220-da59-4897-a5a0-cdbc6845e3b5",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:03.436097",
+    "vehicle_counts": {
+      "total_vehicles": 4,
+      "cars": 3,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.594,
+      "processing_time_ms": 367,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0010.jpg"
+  },
+  {
+    "detection_id": "a3ab4b62-fcb2-4558-a7fc-f5993999da6b",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:06.388148",
+    "vehicle_counts": {
+      "total_vehicles": 3,
+      "cars": 3,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.629,
+      "processing_time_ms": 351,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0011.jpg"
+  },
+  {
+    "detection_id": "1609f118-7aa0-410d-8929-60ef9225e062",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:09.306014",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.543,
+      "processing_time_ms": 344,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0012.jpg"
+  },
+  {
+    "detection_id": "82fe9a02-6939-4c19-85c0-72e1ee3059eb",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:12.205602",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.588,
+      "processing_time_ms": 312,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0013.jpg"
+  },
+  {
+    "detection_id": "470ad098-38cf-4456-82fb-3f81f14eef81",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:15.210956",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.588,
+      "processing_time_ms": 428,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0014.jpg"
+  },
+  {
+    "detection_id": "b82247c1-c549-41f3-a19d-82b37d872b63",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:18.124123",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.651,
+      "processing_time_ms": 340,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0015.jpg"
+  },
+  {
+    "detection_id": "f3842805-7fae-4aaf-bc96-399e1f2fa1c1",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:20.962209",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.656,
+      "processing_time_ms": 252,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0016.jpg"
+  },
+  {
+    "detection_id": "c35b7229-6ba6-49e6-8097-138e76d17cbb",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:23.921180",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.63,
+      "processing_time_ms": 376,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0017.jpg"
+  },
+  {
+    "detection_id": "4bc5cada-8e17-49c0-b9a0-6506401e561d",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:26.792067",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.652,
+      "processing_time_ms": 308,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0018.jpg"
+  },
+  {
+    "detection_id": "0512f6fd-1b10-47e1-8ae8-ededb9d4b28a",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:29.689823",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.631,
+      "processing_time_ms": 336,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0019.jpg"
+  },
+  {
+    "detection_id": "4d952f79-202b-40c6-9868-4c2d816885fb",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:32.545511",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.6,
+      "processing_time_ms": 292,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0020.jpg"
+  },
+  {
+    "detection_id": "293c3127-2270-4118-91ab-9c96ce23ce8e",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:35.385993",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.588,
+      "processing_time_ms": 272,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0021.jpg"
+  },
+  {
+    "detection_id": "a8167b63-c05d-4558-a715-ba1604a6d717",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:38.351257",
+    "vehicle_counts": {
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.576,
+      "processing_time_ms": 387,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0022.jpg"
+  },
+  {
+    "detection_id": "b060a94d-eceb-45d3-8e56-2baebf765d2d",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:41.143277",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.676,
+      "processing_time_ms": 243,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0023.jpg"
+  },
+  {
+    "detection_id": "da6dcdfe-9257-460b-94f9-d315113bd324",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:43.930568",
+    "vehicle_counts": {
+      "total_vehicles": 10,
+      "cars": 9,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.572,
+      "processing_time_ms": 221,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0024.jpg"
+  },
+  {
+    "detection_id": "071f7061-206a-4ec8-8fa5-6404e2367a53",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:46.727076",
+    "vehicle_counts": {
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.55,
+      "processing_time_ms": 232,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0025.jpg"
+  },
+  {
+    "detection_id": "85af5680-4fc1-4ecf-824e-da7e23c4c8d6",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:49.546511",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.619,
+      "processing_time_ms": 258,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0026.jpg"
+  },
+  {
+    "detection_id": "d88fa09a-bdb9-49c1-bd15-1bd4d7b599ab",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:52.557058",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.633,
+      "processing_time_ms": 434,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0027.jpg"
+  },
+  {
+    "detection_id": "f9d9aed1-ec93-4459-ba16-0e72c0c9ce3f",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:55.332728",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.61,
+      "processing_time_ms": 218,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0028.jpg"
+  },
+  {
+    "detection_id": "b84063fb-7cac-4343-a5f7-fd6b6fd5cd38",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:01:58.180068",
+    "vehicle_counts": {
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.503,
+      "processing_time_ms": 277,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0029.jpg"
+  },
+  {
+    "detection_id": "e564796d-91ab-4652-ac12-b6c3b2c14aa3",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:00.974979",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.505,
+      "processing_time_ms": 224,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0030.jpg"
+  },
+  {
+    "detection_id": "34b7d42e-6117-43d4-b302-331261fe4546",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:03.773647",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 7,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.561,
+      "processing_time_ms": 223,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0031.jpg"
+  },
+  {
+    "detection_id": "87072b5d-a371-4859-93eb-7f1969c31022",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:06.585945",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 6,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.518,
+      "processing_time_ms": 220,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0032.jpg"
+  },
+  {
+    "detection_id": "69f1a8a4-d8bc-4923-9b0b-3b69d28998a5",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:09.384075",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.495,
+      "processing_time_ms": 228,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0033.jpg"
+  },
+  {
+    "detection_id": "db1a77ff-9e42-405c-aab2-a71a552d686c",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:12.174000",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.646,
+      "processing_time_ms": 233,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0034.jpg"
+  },
+  {
+    "detection_id": "fa960a13-b6e7-4ccb-a1e8-f736f8f6b023",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:14.993520",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.622,
+      "processing_time_ms": 230,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0035.jpg"
+  },
+  {
+    "detection_id": "35cc153f-3d5a-4a88-ae88-9f2e6fbec1d3",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:17.809386",
+    "vehicle_counts": {
+      "total_vehicles": 5,
+      "cars": 5,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.639,
+      "processing_time_ms": 234,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0036.jpg"
+  },
+  {
+    "detection_id": "6407079e-2bc3-4b78-8059-2e0d97b7a140",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:20.619765",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.499,
+      "processing_time_ms": 222,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0037.jpg"
+  },
+  {
+    "detection_id": "9ff7b54f-9019-4116-ae8e-650702f5ccab",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:23.399794",
+    "vehicle_counts": {
+      "total_vehicles": 5,
+      "cars": 5,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.556,
+      "processing_time_ms": 222,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0038.jpg"
+  },
+  {
+    "detection_id": "e9c6e169-b85e-43b9-8159-94e4e75e8aad",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:26.350650",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 5,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.54,
+      "processing_time_ms": 362,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0039.jpg"
+  },
+  {
+    "detection_id": "7ba5586c-d387-41a9-8cc8-7dca2b540c92",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:29.652906",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 6,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.476,
+      "processing_time_ms": 726,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0040.jpg"
+  },
+  {
+    "detection_id": "703b66b2-8fd8-4e63-b5a3-bed222a43bd8",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:33.925306",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.579,
+      "processing_time_ms": 541,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0041.jpg"
+  },
+  {
+    "detection_id": "df9cc0dc-3393-49ef-b71b-8d83bfe0ae31",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:36.905706",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.539,
+      "processing_time_ms": 383,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0042.jpg"
+  },
+  {
+    "detection_id": "a27f503d-c1be-478b-95dc-42dc056591d6",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:39.862146",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 7,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.555,
+      "processing_time_ms": 376,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0043.jpg"
+  },
+  {
+    "detection_id": "3ff31356-4c8d-4349-baf0-5a78a2a8659d",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:42.790783",
+    "vehicle_counts": {
+      "total_vehicles": 9,
+      "cars": 8,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.533,
+      "processing_time_ms": 348,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0044.jpg"
+  },
+  {
+    "detection_id": "8dd74e2d-398e-40f4-a7bf-09fd36cac22e",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:46.712595",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 7,
+      "trucks": 1,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.555,
+      "processing_time_ms": 1314,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0045.jpg"
+  },
+  {
+    "detection_id": "6ac50f4e-6534-40d8-95ef-e1c9031fcdac",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:50.001653",
+    "vehicle_counts": {
+      "total_vehicles": 6,
+      "cars": 6,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.489,
+      "processing_time_ms": 288,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0046.jpg"
+  },
+  {
+    "detection_id": "c2d30b10-f31a-45d6-92c4-e93e395af80c",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:52.981794",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.579,
+      "processing_time_ms": 410,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0047.jpg"
+  },
+  {
+    "detection_id": "278f5806-dff3-491d-a045-a5fd286a89a8",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:56.012704",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.582,
+      "processing_time_ms": 462,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0048.jpg"
+  },
+  {
+    "detection_id": "3a3779dd-6a46-4509-8a89-6bffc6483fb1",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:02:58.975364",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.59,
+      "processing_time_ms": 390,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0049.jpg"
+  },
+  {
+    "detection_id": "ee4cb810-50af-4f31-8413-863196e6c377",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:02.111293",
+    "vehicle_counts": {
+      "total_vehicles": 9,
+      "cars": 9,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.562,
+      "processing_time_ms": 461,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0050.jpg"
+  },
+  {
+    "detection_id": "d13e53ac-1b07-4c5d-850d-0dc73b1e7199",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:05.222330",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.609,
+      "processing_time_ms": 510,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0051.jpg"
+  },
+  {
+    "detection_id": "7b504b94-dfbe-4b08-8d0c-17698be17d3a",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:08.728124",
+    "vehicle_counts": {
+      "total_vehicles": 9,
+      "cars": 9,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.629,
+      "processing_time_ms": 786,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0052.jpg"
+  },
+  {
+    "detection_id": "b3e21d60-95ef-4474-9df0-b77bd672f29f",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:11.790821",
+    "vehicle_counts": {
+      "total_vehicles": 7,
+      "cars": 7,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.639,
+      "processing_time_ms": 351,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0053.jpg"
+  },
+  {
+    "detection_id": "0e9b0814-d9ad-40cf-9d33-7767eff23530",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:14.834115",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.631,
+      "processing_time_ms": 439,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0054.jpg"
+  },
+  {
+    "detection_id": "a0caf937-47d6-498c-894a-f690c924572d",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:17.841268",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.624,
+      "processing_time_ms": 430,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0055.jpg"
+  },
+  {
+    "detection_id": "af1db1a4-f62b-4dd3-9c36-dbedfd0ce7af",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:20.817073",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.616,
+      "processing_time_ms": 390,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0056.jpg"
+  },
+  {
+    "detection_id": "90b3cfa9-5a50-405a-89c5-35b686df9e84",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:23.998340",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.636,
+      "processing_time_ms": 582,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0057.jpg"
+  },
+  {
+    "detection_id": "01d14cfc-041d-4606-8acf-748be48d7de6",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:26.905142",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.589,
+      "processing_time_ms": 314,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0058.jpg"
+  },
+  {
+    "detection_id": "6d14ab26-5fc8-4078-8d33-3719879d7e67",
+    "camera_id": "default-camera",
+    "timestamp": "2025-08-01T11:03:29.870762",
+    "vehicle_counts": {
+      "total_vehicles": 8,
+      "cars": 8,
+      "trucks": 0,
+      "buses": 0,
+      "motorcycles": 0,
+      "bicycles": 0,
+      "pedestrians": 0
+    },
+    "detection_metadata": {
+      "confidence_score": 0.607,
+      "processing_time_ms": 357,
+      "model_version": "YOLOv8n",
+      "image_dimensions": {
+        "width": 2560,
+        "height": 1440
+      }
+    },
+    "source_image": "..\\..\\data\\processed\\ip_camera\\frame_0059.jpg"
+  }
+]
